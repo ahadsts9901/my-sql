@@ -1,0 +1,5 @@
+1. full form
+
+SEQL ====> structured english query language
+SQL ====> structured query language
+
