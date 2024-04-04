@@ -1,17 +1,19 @@
-1. full form
+// full form
 
 SEQL ====> structured english query language
 SQL ====> structured query language
 
-2. installations
+// installations
 
 mySQL
 mySQL WorkBench
 
-3.learning
+// learning
+
 
 1. basics
     white spaces are ignored
+
     order of query is strict
 
         USE sql_store;
@@ -21,8 +23,12 @@ mySQL WorkBench
         WHERE customer_id = 1
         ORDER BY first_name
 
+    mySQL follows BODMAS rule ( bracket, open, division, multiplication, addition, subtraction )
+
+
 2. comments in mySQL
     -- WHERE customer_id = 1
+
 
 3. clauses
 
@@ -54,3 +60,16 @@ AS clause
 DISTINCT clause
     for selecting the unique fields ( remove duplicates )
     SELECT customers DISTINCT state
+
+
+4. operators
+
+NOT > AND > OR
+
+AND operator
+    for validate both side values
+    SELECT * FROM customers WHERE birth_date >= '1974-04-14' AND points > 1000
+
+OR operator
+    for validate one side value
+    SELECT * FROM customers WHERE birth_date >= '1974-04-14' OR points > 1000
