@@ -3,3 +3,54 @@
 SEQL ====> structured english query language
 SQL ====> structured query language
 
+2. installations
+
+mySQL
+mySQL WorkBench
+
+3.learning
+
+1. basics
+    white spaces are ignored
+    order of query is strict
+
+        USE sql_store;
+
+        SELECT *
+        FROM customers
+        WHERE customer_id = 1
+        ORDER BY first_name
+
+2. comments in mySQL
+    -- WHERE customer_id = 1
+
+3. clauses
+
+USE clause
+    to select a database
+        USE sql_store ;
+
+SELECT clause
+    to select a column
+    SELECT first_name, last_name ;
+    SELECT * ;
+
+FROM clause
+    form which column
+    FROM customers ;
+
+WHERE clause
+    for filtering data
+    WHERE customer_id = 1 ;
+
+ORDER BY clause
+    for ordering data
+    ORDER BY first_name ;
+
+AS clause
+    for naming the column
+    SELECT points AS user_points
+
+DISTINCT clause
+    for selecting the unique fields ( remove duplicates )
+    SELECT customers DISTINCT state
