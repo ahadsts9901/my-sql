@@ -89,4 +89,8 @@ LIKE operator
 
 REGEXP operator
     to match regular expressions in strings
-    
+    SELECT * FROM customers WHERE phone REGEXP '^7'
+
+NULL operator
+    to get the null value
+    SELECT * FROM customers WHERE phone IS NULL
