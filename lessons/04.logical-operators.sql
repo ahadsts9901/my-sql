@@ -41,3 +41,23 @@ FROM
 WHERE
     order_id = 6
         AND (quantity * unit_price) > 30
+
+
+-- find the users who live in 'VA' , 'FL', 'GA'
+
+SELECT 
+    *
+FROM
+    customers
+WHERE
+    state IN ('VA' , 'FL', 'GA')
+
+
+-- find stock in products whom stock_quantity = '49' , '38', '72'
+
+SELECT 
+    *
+FROM
+    products
+WHERE
+    quantity_in_stock IN (49 , 38, 72)

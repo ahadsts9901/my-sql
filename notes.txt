@@ -73,3 +73,7 @@ AND operator
 OR operator
     for validate one side value
     SELECT * FROM customers WHERE birth_date >= '1974-04-14' OR points > 1000
+
+IN operator
+    to find something in the table
+    SELECT * FROM customers WHERE state IN ( "VA", "FL", "GA" )
