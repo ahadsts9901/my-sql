@@ -18,6 +18,3 @@ FROM
     orders
 WHERE
     shipped_date IS NULL
-
-
--- order clause

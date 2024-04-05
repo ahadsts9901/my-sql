@@ -94,3 +94,9 @@ REGEXP operator
 NULL operator
     to get the null value
     SELECT * FROM customers WHERE phone IS NULL
+
+ORDER BY clause
+    to order the data
+    SELECT * FROM customers ORDER BY first_name
+        ASC for ascending order
+        DESC for descending order
