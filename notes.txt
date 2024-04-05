@@ -84,3 +84,9 @@ BETWEEN operator
 
 LIKE operator
     to match pattern ( not regex ) "%" is use for any number of characters and "_" is use for a single character
+    SELECT * FROM customers WHERE last_name LIKE '%y'
+    SELECT * FROM customers WHERE last_name LIKE 'b_____'
+
+REGEXP operator
+    to match regular expressions in strings
+    
