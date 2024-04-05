@@ -77,3 +77,8 @@ OR operator
 IN operator
     to find something in the table
     SELECT * FROM customers WHERE state IN ( "VA", "FL", "GA" )
+
+BETWEEN operator
+    to find something between numbers
+    SELECT * FROM customers WHERE points BETWEEN 100 AND 3000
+
