@@ -36,3 +36,44 @@ FROM
     customers
 WHERE
     birth_date BETWEEN '1990-01-01' AND '2000-01-01'
+
+
+-- find customers whom last_name ends with 'y'
+
+SELECT 
+    *
+FROM
+    customers
+WHERE
+    last_name LIKE '%y'
+
+
+-- find customers whom last_name has any last 5 chracters but last_name starts with b
+
+SELECT 
+    *
+FROM
+    customers
+WHERE
+    last_name LIKE 'b_____'
+
+
+-- get the customers whom adresses contains "TRAIL" or "AVENUE"
+
+SELECT 
+    *
+FROM
+    customers
+WHERE
+    address LIKE '%AVENUE%'
+        OR address LIKE '%TRAIL%'
+
+
+-- get the customers whom phone number ends with 9
+
+SELECT 
+    *
+FROM
+    customers
+WHERE
+    phone LIKE '%9'

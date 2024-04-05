@@ -82,3 +82,5 @@ BETWEEN operator
     to find something between numbers
     SELECT * FROM customers WHERE points BETWEEN 100 AND 3000
 
+LIKE operator
+    to match pattern ( not regex ) "%" is use for any number of characters and "_" is use for a single character
