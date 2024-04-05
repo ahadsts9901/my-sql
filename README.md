@@ -2,4 +2,4 @@
 
 ## Learning mySQL
 
-## [Youtube Totorial]()
+## [Youtube Totorial](https://youtu.be/7S_tz1z_5bA?si=uH3IZ15rBD5CaEZg)
