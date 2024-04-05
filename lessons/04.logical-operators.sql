@@ -29,3 +29,15 @@ FROM
 WHERE
     NOT (birth_date >= '1974-04-14'
         AND points > 1000)
+
+
+-- select order no 6 form order_items where order quantity * unit_price is greater than 30
+
+
+SELECT 
+    *
+FROM
+    order_items
+WHERE
+    order_id = 6
+        AND (quantity * unit_price) > 30
