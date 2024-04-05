@@ -100,3 +100,9 @@ ORDER BY clause
     SELECT * FROM customers ORDER BY first_name
         ASC for ascending order
         DESC for descending order
+
+LIMIT clause
+    usage
+        ( skip, limit )
+    for lomiting the data
+    SELECT * FROM customers LIMIT 3
